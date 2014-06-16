@@ -11,8 +11,8 @@
       $registros = mysql_fetch_array($result);
 			return $registros;
 		}
-		function consulProdu (){
-			$inser ="SELECT * FROM marcaxxx order by IDMARCAX";
+		function consulSimple ($inser){
+			
 			$conexion = $this->Conexion;
 			$result = mysql_query($inser,$conexion);
 			return $result;
