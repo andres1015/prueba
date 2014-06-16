@@ -1,3 +1,3 @@
 <?php
-  echo "<h1>Hola Mundo</h1>";
+ header("Location: templates/index.html");	
 ?>
